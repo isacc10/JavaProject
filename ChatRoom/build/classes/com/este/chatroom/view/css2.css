@@ -1,0 +1,39 @@
+
+
+
+
+.root
+{
+	-fx-background-image:url('fore2.jpg');
+	-fx-background-size:cover;
+	-fx-background-radius:9;
+	-fx-border-radius:9;
+}
+
+
+.jfx-progress-bar:determinate .bar
+{
+    -fx-background-color : white;
+}
+
+.jfx-progress-bar:determinate .track {
+  -fx-background-color : transparent;
+}
+
+
+.block
+{
+    -fx-background-color: linear-gradient(to top,   derive(#004080, 50%) , derive(#0059b3, 50%)) ;
+    
+}
+.txt
+{
+  -fx-fill : linear-gradient(to left,  #4da9ff, #00284d);
+
+}
+
+.txt:hover
+{
+  -fx-fill : linear-gradient(to left, #ff3399, #6a5acd);
+
+}

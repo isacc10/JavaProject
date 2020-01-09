@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxWidth="1.7976931348623157E308" prefWidth="300.0" spacing="5.0" style="-fx-background-color: white; -fx-background-radius: 10;" styleClass="user" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.este.chatroom.controller.ClientUIController">
+   <children>
+      <FontAwesomeIconView fill="#75787c" glyphName="USER" size="12" />
+      <Label fx:id="username" alignment="BOTTOM_LEFT" maxWidth="1.7976931348623157E308" text="Aniakuos Isac" textFill="#6b5555" HBox.hgrow="ALWAYS">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fill="RED" glyphName="CIRCLE" size="8" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</HBox>

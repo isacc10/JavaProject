@@ -1,0 +1,115 @@
+.joinBtn {
+    -fx-background-color:#44c767;
+}
+.joinBtn:hover {
+    -fx-background-color:#5cbf2a;
+}
+.joinBtn:active {
+    /*-fx-position:relative;
+    -fx-top:1px;*/
+}
+
+.createBtn {
+    -fx-background-color:#44c767;
+}
+.createBtn:hover {
+    -fx-background-color:#5cbf2a;
+}
+.createBtn:active {
+    /*-fx-position:relative;
+    -fx-top:1px;*/
+}
+
+.button:hover{
+    -fx-cursor : hand;
+}
+.button:pressed, .toggle-button:pressed {
+  -fx-scale-x : 1.05;
+  -fx-scale-y : 1.05;
+}
+
+
+
+.progress-bar:determinate {
+  -fx-padding : 0px;
+  -fx-background-radius:4;
+}
+
+.progress-bar:determinate .track {
+  -fx-background-color :  #b3ffff;
+  -fx-background-radius:4;
+}
+
+.progress-bar:determinate .bar {
+  -fx-background-color : #44c767;
+  -fx-background-insets : 0px;
+  -fx-background-radius:4;
+}
+
+.progress-bar:indeterminate .bar {
+    -fx-background-insets : 0px;
+    -fx-background-color: linear-gradient(to left, derive(#44c767, 80%), #44c767);
+}
+
+.progress-bar:indeterminate .track {
+    -fx-background-color : #b3ffff;
+}
+
+.input{
+  -jfx-focus-color:linear-gradient(to left, white, #3333ff);
+  -jfx-unfocus-color:white;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;  
+}
+
+.in{
+  -jfx-focus-color:linear-gradient(to left, #df9fbf, #3333ff);
+  -fx-font-weight:bold;
+  -fx-prompt-text-fill: white;
+  -fx-text-fill:white;
+  -jfx-unfocus-color:linear-gradient(to left, white, #3333ff);
+  /*-fx-font-weight:bold;
+  -fx-prompt-text-color:white;
+  -fx-text-color:white;
+  -fx-text-fill:white;
+  -fx-prompt-text-color:white;*/
+
+}
+
+/*
+.text-input {
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+/*
+}
+*/
+/*
+.text-input:focused {
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color: 
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+
+*/
+
+
+
+
+
+
